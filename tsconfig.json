@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "paths": {
+      "tslib": ["./node_modules/tslib/tslib.d.ts"]
+    },
+    "experimentalDecorators": true,
+    "types": ["@esri/calcite-components"]
+  },
+  "include": ["vite-env.d.ts", "src/**/*"]
+}
